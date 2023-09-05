@@ -1,0 +1,69 @@
+{
+  "pre_trained": false,
+  "log_dir": "data/model_logs_large/case_dag_gen/N20",
+  "log_level": "INFO",
+  "save_and_log": true,
+  "save_tb": false,
+  "data": {
+    "batch_size": 64,
+    "sample_ratio": 0.3,
+    "dataset_dir": "data/METR-LA-DCRNN/N20"
+  },
+  "model": {
+    "description": "CASE_DAG_GEN",
+    "special_id": null,
+    "seq_len": 11,
+    "num_nodes": 20,
+    "in_feats_dim": 2,
+    "out_feats_dim": 1,
+    "hidden_dim": 64,
+    "z_dim": 8,
+    "num_layers": 2,
+    "num_heads": 8,
+    "feats_layers": 3,
+    "agg_feats": "ori",
+    "node_norm": true,
+    "use_norm": true,
+    "use_pp": false,
+    "step_pri": 0.01,
+    "step_dual": 0.01,
+    "reg_sp_intra": 0.002,
+    "num_intra_pp_iters": 1000,
+    "model_version": "g4s2v1"
+  },
+  "loss": {
+    "reg_sp": 0.002,
+    "reg_sg": 0.0
+  },
+  "train": {
+    "debug": false,
+    "seed": 123,
+    "epoch": 0,
+    "epochs": 100,
+    "log_step": 100,
+    "tensorboard_dir": "data/runs/case_dag_gen/N20",
+    "plot": true,
+    "plot_warmup": 5,
+    "optimizer": "adam",
+    "epsilon": 0.001,
+    "lr_type": "MultiStepLR",
+    "base_lr": 0.0001,
+    "weight_decay": 0,
+    "lr_milestones": [
+      100
+    ],
+    "lr_decay_ratio": 0.1,
+    "max_grad_norm": 1,
+    "min_epochs": 0,
+    "early_stop": 5,
+    "lagrangian_eta": 10,
+    "lagrangian_gamma": 0.5,
+    "lagrangian_eps": 0.0001,
+    "lagrangian_milestones": [
+      6
+    ],
+    "lagrangian_early_stop": 5,
+    "lagrangian_epochs": 50
+  },
+  "base_dir": "D:\\Code_Files\\Pycharm\\Traffic"
+}

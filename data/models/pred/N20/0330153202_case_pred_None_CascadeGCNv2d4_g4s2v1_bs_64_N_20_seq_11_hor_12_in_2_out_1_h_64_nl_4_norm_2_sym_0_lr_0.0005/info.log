@@ -1,0 +1,533 @@
+2023-03-30 15:32:02,056 - nns.supervisor.base_supervisor - INFO - Log directory: D:\Code_Files\Pycharm\Traffic\data/model_logs_large/case_pred/N20\0330153202_case_pred_None_CascadeGCNv2d4_g4s2v1_bs_64_N_20_seq_11_hor_12_in_2_out_1_h_64_nl_4_norm_2_sym_0_lr_0.0005
+2023-03-30 15:32:02,766 - nns.supervisor.base_supervisor - INFO - Pred Model Version CascadeGCNv2d4
+2023-03-30 15:32:02,766 - nns.supervisor.base_supervisor - INFO - pred model CascadeGCNv2d4
+2023-03-30 15:32:02,786 - nns.supervisor.base_supervisor - INFO - Model created
+2023-03-30 15:32:02,786 - nns.supervisor.base_supervisor - INFO - Model Desc: Causal Predictor Attn
+2023-03-30 15:32:02,786 - nns.supervisor.base_supervisor - INFO - Train model with curriculum learning, step 150
+2023-03-30 15:32:03,829 - nns.supervisor.base_supervisor - INFO - load dag_gen_attn_g4s2v1 model successfully in D:\Code_Files\Pycharm\Traffic\data/model_logs_large/case_dag_gen/N20\0315182858_case_dag_gen_None_g4s2v1_seed_123_bs_64_N_20_seq_11_in_2_out_1_h_64_z_8_nl_2_nh_8_f_cat_fl_3_nn_1_un_1_upp_0_sp0_0.002_npp0_1000_lr_0.0001_sp_0.002_sg_0.0
+2023-03-30 15:32:03,830 - nns.supervisor.base_supervisor - INFO - Generate causal graph before training.
+2023-03-30 15:33:01,943 - nns.supervisor.base_supervisor - INFO - Train Epoch 1: 0/359 Loss: 36.370
+2023-03-30 15:33:06,406 - nns.supervisor.base_supervisor - INFO - Train Epoch 1: 100/359 Loss: 3.434
+2023-03-30 15:33:08,454 - nns.supervisor.base_supervisor - INFO - update task_level: 2
+2023-03-30 15:33:10,632 - nns.supervisor.base_supervisor - INFO - Train Epoch 1: 200/359 Loss: 3.990
+2023-03-30 15:33:14,790 - nns.supervisor.base_supervisor - INFO - update task_level: 3
+2023-03-30 15:33:14,854 - nns.supervisor.base_supervisor - INFO - Train Epoch 1: 300/359 Loss: 4.650
+2023-03-30 15:33:17,301 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 1: averaged Loss: mae 4.749
+2023-03-30 15:33:18,136 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 1: average Loss: 11.451269
+2023-03-30 15:33:18,137 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:33:18,222 - nns.supervisor.base_supervisor - INFO - Saved current best model at 1
+2023-03-30 15:33:18,600 - nns.supervisor.base_supervisor - INFO - Train Epoch 2: 0/359 Loss: 3.193
+2023-03-30 15:33:22,370 - nns.supervisor.base_supervisor - INFO - update task_level: 4
+2023-03-30 15:33:22,816 - nns.supervisor.base_supervisor - INFO - Train Epoch 2: 100/359 Loss: 5.424
+2023-03-30 15:33:27,066 - nns.supervisor.base_supervisor - INFO - Train Epoch 2: 200/359 Loss: 3.246
+2023-03-30 15:33:28,741 - nns.supervisor.base_supervisor - INFO - update task_level: 5
+2023-03-30 15:33:31,324 - nns.supervisor.base_supervisor - INFO - Train Epoch 2: 300/359 Loss: 3.250
+2023-03-30 15:33:33,786 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 2: averaged Loss: mae 3.310
+2023-03-30 15:33:34,628 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 2: average Loss: 8.588293
+2023-03-30 15:33:34,628 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:33:34,672 - nns.supervisor.base_supervisor - INFO - Saved current best model at 2
+2023-03-30 15:33:35,025 - nns.supervisor.base_supervisor - INFO - Train Epoch 3: 0/359 Loss: 3.371
+2023-03-30 15:33:36,342 - nns.supervisor.base_supervisor - INFO - update task_level: 6
+2023-03-30 15:33:39,406 - nns.supervisor.base_supervisor - INFO - Train Epoch 3: 100/359 Loss: 3.074
+2023-03-30 15:33:42,969 - nns.supervisor.base_supervisor - INFO - update task_level: 7
+2023-03-30 15:33:43,835 - nns.supervisor.base_supervisor - INFO - Train Epoch 3: 200/359 Loss: 3.091
+2023-03-30 15:33:48,180 - nns.supervisor.base_supervisor - INFO - Train Epoch 3: 300/359 Loss: 2.934
+2023-03-30 15:33:49,515 - nns.supervisor.base_supervisor - INFO - update task_level: 8
+2023-03-30 15:33:50,732 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 3: averaged Loss: mae 3.246
+2023-03-30 15:33:51,595 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 3: average Loss: 6.051308
+2023-03-30 15:33:51,595 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:33:51,645 - nns.supervisor.base_supervisor - INFO - Saved current best model at 3
+2023-03-30 15:33:51,996 - nns.supervisor.base_supervisor - INFO - Train Epoch 4: 0/359 Loss: 3.272
+2023-03-30 15:33:56,429 - nns.supervisor.base_supervisor - INFO - Train Epoch 4: 100/359 Loss: 3.321
+2023-03-30 15:33:57,394 - nns.supervisor.base_supervisor - INFO - update task_level: 9
+2023-03-30 15:34:00,899 - nns.supervisor.base_supervisor - INFO - Train Epoch 4: 200/359 Loss: 3.126
+2023-03-30 15:34:04,108 - nns.supervisor.base_supervisor - INFO - update task_level: 10
+2023-03-30 15:34:05,441 - nns.supervisor.base_supervisor - INFO - Train Epoch 4: 300/359 Loss: 3.384
+2023-03-30 15:34:08,097 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 4: averaged Loss: mae 3.341
+2023-03-30 15:34:08,996 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 4: average Loss: 4.577055
+2023-03-30 15:34:08,996 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:34:09,047 - nns.supervisor.base_supervisor - INFO - Saved current best model at 4
+2023-03-30 15:34:09,399 - nns.supervisor.base_supervisor - INFO - Train Epoch 5: 0/359 Loss: 3.350
+2023-03-30 15:34:12,213 - nns.supervisor.base_supervisor - INFO - update task_level: 11
+2023-03-30 15:34:13,938 - nns.supervisor.base_supervisor - INFO - Train Epoch 5: 100/359 Loss: 3.459
+2023-03-30 15:34:18,558 - nns.supervisor.base_supervisor - INFO - Train Epoch 5: 200/359 Loss: 3.513
+2023-03-30 15:34:19,114 - nns.supervisor.base_supervisor - INFO - update task_level: 12
+2023-03-30 15:34:22,965 - nns.supervisor.base_supervisor - INFO - Train Epoch 5: 300/359 Loss: 3.667
+2023-03-30 15:34:25,648 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 5: averaged Loss: mae 3.416
+2023-03-30 15:34:26,517 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 5: average Loss: 3.377564
+2023-03-30 15:34:26,517 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:34:26,563 - nns.supervisor.base_supervisor - INFO - Saved current best model at 5
+2023-03-30 15:34:26,935 - nns.supervisor.base_supervisor - INFO - Train Epoch 6: 0/359 Loss: 3.304
+2023-03-30 15:34:31,327 - nns.supervisor.base_supervisor - INFO - Train Epoch 6: 100/359 Loss: 3.456
+2023-03-30 15:34:35,750 - nns.supervisor.base_supervisor - INFO - Train Epoch 6: 200/359 Loss: 3.284
+2023-03-30 15:34:40,177 - nns.supervisor.base_supervisor - INFO - Train Epoch 6: 300/359 Loss: 3.324
+2023-03-30 15:34:42,771 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 6: averaged Loss: mae 3.366
+2023-03-30 15:34:43,632 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 6: average Loss: 3.350426
+2023-03-30 15:34:43,632 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:34:43,684 - nns.supervisor.base_supervisor - INFO - Saved current best model at 6
+2023-03-30 15:34:44,049 - nns.supervisor.base_supervisor - INFO - Train Epoch 7: 0/359 Loss: 3.158
+2023-03-30 15:34:48,498 - nns.supervisor.base_supervisor - INFO - Train Epoch 7: 100/359 Loss: 2.919
+2023-03-30 15:34:52,985 - nns.supervisor.base_supervisor - INFO - Train Epoch 7: 200/359 Loss: 3.599
+2023-03-30 15:34:57,441 - nns.supervisor.base_supervisor - INFO - Train Epoch 7: 300/359 Loss: 3.115
+2023-03-30 15:35:00,043 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 7: averaged Loss: mae 3.306
+2023-03-30 15:35:00,921 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 7: average Loss: 3.250780
+2023-03-30 15:35:00,921 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:35:00,972 - nns.supervisor.base_supervisor - INFO - Saved current best model at 7
+2023-03-30 15:35:01,355 - nns.supervisor.base_supervisor - INFO - Train Epoch 8: 0/359 Loss: 3.221
+2023-03-30 15:35:05,853 - nns.supervisor.base_supervisor - INFO - Train Epoch 8: 100/359 Loss: 3.154
+2023-03-30 15:35:10,363 - nns.supervisor.base_supervisor - INFO - Train Epoch 8: 200/359 Loss: 3.256
+2023-03-30 15:35:14,925 - nns.supervisor.base_supervisor - INFO - Train Epoch 8: 300/359 Loss: 3.109
+2023-03-30 15:35:17,609 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 8: averaged Loss: mae 3.261
+2023-03-30 15:35:18,474 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 8: average Loss: 3.260202
+2023-03-30 15:35:18,474 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:35:18,847 - nns.supervisor.base_supervisor - INFO - Train Epoch 9: 0/359 Loss: 3.071
+2023-03-30 15:35:23,365 - nns.supervisor.base_supervisor - INFO - Train Epoch 9: 100/359 Loss: 3.165
+2023-03-30 15:35:27,838 - nns.supervisor.base_supervisor - INFO - Train Epoch 9: 200/359 Loss: 3.536
+2023-03-30 15:35:32,374 - nns.supervisor.base_supervisor - INFO - Train Epoch 9: 300/359 Loss: 3.052
+2023-03-30 15:35:35,002 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 9: averaged Loss: mae 3.232
+2023-03-30 15:35:35,874 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 9: average Loss: 3.224270
+2023-03-30 15:35:35,874 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:35:35,923 - nns.supervisor.base_supervisor - INFO - Saved current best model at 9
+2023-03-30 15:35:36,331 - nns.supervisor.base_supervisor - INFO - Train Epoch 10: 0/359 Loss: 3.530
+2023-03-30 15:35:40,953 - nns.supervisor.base_supervisor - INFO - Train Epoch 10: 100/359 Loss: 3.217
+2023-03-30 15:35:45,794 - nns.supervisor.base_supervisor - INFO - Train Epoch 10: 200/359 Loss: 3.282
+2023-03-30 15:35:50,765 - nns.supervisor.base_supervisor - INFO - Train Epoch 10: 300/359 Loss: 3.104
+2023-03-30 15:35:53,547 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 10: averaged Loss: mae 3.210
+2023-03-30 15:35:54,454 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 10: average Loss: 3.347923
+2023-03-30 15:35:54,454 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:35:54,826 - nns.supervisor.base_supervisor - INFO - Train Epoch 11: 0/359 Loss: 2.983
+2023-03-30 15:35:59,490 - nns.supervisor.base_supervisor - INFO - Train Epoch 11: 100/359 Loss: 3.021
+2023-03-30 15:36:04,073 - nns.supervisor.base_supervisor - INFO - Train Epoch 11: 200/359 Loss: 3.038
+2023-03-30 15:36:08,754 - nns.supervisor.base_supervisor - INFO - Train Epoch 11: 300/359 Loss: 3.492
+2023-03-30 15:36:11,435 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 11: averaged Loss: mae 3.189
+2023-03-30 15:36:12,322 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 11: average Loss: 3.252324
+2023-03-30 15:36:12,322 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:36:12,683 - nns.supervisor.base_supervisor - INFO - Train Epoch 12: 0/359 Loss: 3.103
+2023-03-30 15:36:17,261 - nns.supervisor.base_supervisor - INFO - Train Epoch 12: 100/359 Loss: 3.417
+2023-03-30 15:36:21,977 - nns.supervisor.base_supervisor - INFO - Train Epoch 12: 200/359 Loss: 3.113
+2023-03-30 15:36:26,630 - nns.supervisor.base_supervisor - INFO - Train Epoch 12: 300/359 Loss: 3.127
+2023-03-30 15:36:29,292 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 12: averaged Loss: mae 3.170
+2023-03-30 15:36:30,178 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 12: average Loss: 3.196195
+2023-03-30 15:36:30,179 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:36:30,342 - nns.supervisor.base_supervisor - INFO - Saved current best model at 12
+2023-03-30 15:36:30,712 - nns.supervisor.base_supervisor - INFO - Train Epoch 13: 0/359 Loss: 3.287
+2023-03-30 15:36:35,298 - nns.supervisor.base_supervisor - INFO - Train Epoch 13: 100/359 Loss: 3.020
+2023-03-30 15:36:39,898 - nns.supervisor.base_supervisor - INFO - Train Epoch 13: 200/359 Loss: 3.121
+2023-03-30 15:36:44,514 - nns.supervisor.base_supervisor - INFO - Train Epoch 13: 300/359 Loss: 3.292
+2023-03-30 15:36:47,176 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 13: averaged Loss: mae 3.152
+2023-03-30 15:36:48,057 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 13: average Loss: 3.158475
+2023-03-30 15:36:48,057 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:36:48,106 - nns.supervisor.base_supervisor - INFO - Saved current best model at 13
+2023-03-30 15:36:48,507 - nns.supervisor.base_supervisor - INFO - Train Epoch 14: 0/359 Loss: 3.090
+2023-03-30 15:36:53,139 - nns.supervisor.base_supervisor - INFO - Train Epoch 14: 100/359 Loss: 3.139
+2023-03-30 15:36:57,773 - nns.supervisor.base_supervisor - INFO - Train Epoch 14: 200/359 Loss: 3.361
+2023-03-30 15:37:02,389 - nns.supervisor.base_supervisor - INFO - Train Epoch 14: 300/359 Loss: 2.979
+2023-03-30 15:37:05,082 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 14: averaged Loss: mae 3.137
+2023-03-30 15:37:05,980 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 14: average Loss: 3.265487
+2023-03-30 15:37:05,980 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:37:06,357 - nns.supervisor.base_supervisor - INFO - Train Epoch 15: 0/359 Loss: 3.214
+2023-03-30 15:37:10,943 - nns.supervisor.base_supervisor - INFO - Train Epoch 15: 100/359 Loss: 3.030
+2023-03-30 15:37:15,594 - nns.supervisor.base_supervisor - INFO - Train Epoch 15: 200/359 Loss: 3.089
+2023-03-30 15:37:20,206 - nns.supervisor.base_supervisor - INFO - Train Epoch 15: 300/359 Loss: 2.955
+2023-03-30 15:37:22,892 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 15: averaged Loss: mae 3.121
+2023-03-30 15:37:23,777 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 15: average Loss: 3.308033
+2023-03-30 15:37:23,777 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:37:24,158 - nns.supervisor.base_supervisor - INFO - Train Epoch 16: 0/359 Loss: 2.926
+2023-03-30 15:37:28,765 - nns.supervisor.base_supervisor - INFO - Train Epoch 16: 100/359 Loss: 3.507
+2023-03-30 15:37:33,382 - nns.supervisor.base_supervisor - INFO - Train Epoch 16: 200/359 Loss: 3.238
+2023-03-30 15:37:38,006 - nns.supervisor.base_supervisor - INFO - Train Epoch 16: 300/359 Loss: 3.358
+2023-03-30 15:37:40,692 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 16: averaged Loss: mae 3.117
+2023-03-30 15:37:41,578 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 16: average Loss: 3.213533
+2023-03-30 15:37:41,578 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:37:41,959 - nns.supervisor.base_supervisor - INFO - Train Epoch 17: 0/359 Loss: 3.057
+2023-03-30 15:37:46,642 - nns.supervisor.base_supervisor - INFO - Train Epoch 17: 100/359 Loss: 2.948
+2023-03-30 15:37:51,343 - nns.supervisor.base_supervisor - INFO - Train Epoch 17: 200/359 Loss: 2.988
+2023-03-30 15:37:56,033 - nns.supervisor.base_supervisor - INFO - Train Epoch 17: 300/359 Loss: 3.296
+2023-03-30 15:37:58,723 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 17: averaged Loss: mae 3.109
+2023-03-30 15:37:59,607 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 17: average Loss: 3.216014
+2023-03-30 15:37:59,608 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:37:59,991 - nns.supervisor.base_supervisor - INFO - Train Epoch 18: 0/359 Loss: 3.157
+2023-03-30 15:38:04,661 - nns.supervisor.base_supervisor - INFO - Train Epoch 18: 100/359 Loss: 3.007
+2023-03-30 15:38:09,368 - nns.supervisor.base_supervisor - INFO - Train Epoch 18: 200/359 Loss: 2.838
+2023-03-30 15:38:13,999 - nns.supervisor.base_supervisor - INFO - Train Epoch 18: 300/359 Loss: 3.122
+2023-03-30 15:38:16,729 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 18: averaged Loss: mae 3.100
+2023-03-30 15:38:17,631 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 18: average Loss: 3.277199
+2023-03-30 15:38:17,631 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:38:18,015 - nns.supervisor.base_supervisor - INFO - Train Epoch 19: 0/359 Loss: 3.249
+2023-03-30 15:38:22,659 - nns.supervisor.base_supervisor - INFO - Train Epoch 19: 100/359 Loss: 3.091
+2023-03-30 15:38:27,312 - nns.supervisor.base_supervisor - INFO - Train Epoch 19: 200/359 Loss: 2.876
+2023-03-30 15:38:31,943 - nns.supervisor.base_supervisor - INFO - Train Epoch 19: 300/359 Loss: 3.132
+2023-03-30 15:38:34,654 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 19: averaged Loss: mae 3.091
+2023-03-30 15:38:35,547 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 19: average Loss: 3.348465
+2023-03-30 15:38:35,548 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:38:35,927 - nns.supervisor.base_supervisor - INFO - Train Epoch 20: 0/359 Loss: 2.990
+2023-03-30 15:38:40,609 - nns.supervisor.base_supervisor - INFO - Train Epoch 20: 100/359 Loss: 2.908
+2023-03-30 15:38:45,292 - nns.supervisor.base_supervisor - INFO - Train Epoch 20: 200/359 Loss: 2.924
+2023-03-30 15:38:49,944 - nns.supervisor.base_supervisor - INFO - Train Epoch 20: 300/359 Loss: 3.099
+2023-03-30 15:38:52,670 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 20: averaged Loss: mae 3.083
+2023-03-30 15:38:53,570 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 20: average Loss: 3.115181
+2023-03-30 15:38:53,571 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:38:53,621 - nns.supervisor.base_supervisor - INFO - Saved current best model at 20
+2023-03-30 15:38:54,019 - nns.supervisor.base_supervisor - INFO - Train Epoch 21: 0/359 Loss: 3.001
+2023-03-30 15:38:58,705 - nns.supervisor.base_supervisor - INFO - Train Epoch 21: 100/359 Loss: 3.002
+2023-03-30 15:39:03,673 - nns.supervisor.base_supervisor - INFO - Train Epoch 21: 200/359 Loss: 3.050
+2023-03-30 15:39:08,391 - nns.supervisor.base_supervisor - INFO - Train Epoch 21: 300/359 Loss: 3.159
+2023-03-30 15:39:11,125 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 21: averaged Loss: mae 3.077
+2023-03-30 15:39:12,035 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 21: average Loss: 3.186954
+2023-03-30 15:39:12,036 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:39:12,444 - nns.supervisor.base_supervisor - INFO - Train Epoch 22: 0/359 Loss: 3.049
+2023-03-30 15:39:17,163 - nns.supervisor.base_supervisor - INFO - Train Epoch 22: 100/359 Loss: 3.018
+2023-03-30 15:39:21,872 - nns.supervisor.base_supervisor - INFO - Train Epoch 22: 200/359 Loss: 3.103
+2023-03-30 15:39:26,608 - nns.supervisor.base_supervisor - INFO - Train Epoch 22: 300/359 Loss: 3.224
+2023-03-30 15:39:29,319 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 22: averaged Loss: mae 3.072
+2023-03-30 15:39:30,224 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 22: average Loss: 3.201641
+2023-03-30 15:39:30,224 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:39:30,623 - nns.supervisor.base_supervisor - INFO - Train Epoch 23: 0/359 Loss: 2.940
+2023-03-30 15:39:35,303 - nns.supervisor.base_supervisor - INFO - Train Epoch 23: 100/359 Loss: 3.188
+2023-03-30 15:39:39,981 - nns.supervisor.base_supervisor - INFO - Train Epoch 23: 200/359 Loss: 2.929
+2023-03-30 15:39:44,701 - nns.supervisor.base_supervisor - INFO - Train Epoch 23: 300/359 Loss: 3.027
+2023-03-30 15:39:47,428 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 23: averaged Loss: mae 3.065
+2023-03-30 15:39:48,324 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 23: average Loss: 3.161188
+2023-03-30 15:39:48,324 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:39:48,727 - nns.supervisor.base_supervisor - INFO - Train Epoch 24: 0/359 Loss: 3.515
+2023-03-30 15:39:53,416 - nns.supervisor.base_supervisor - INFO - Train Epoch 24: 100/359 Loss: 3.025
+2023-03-30 15:39:58,066 - nns.supervisor.base_supervisor - INFO - Train Epoch 24: 200/359 Loss: 3.035
+2023-03-30 15:40:02,845 - nns.supervisor.base_supervisor - INFO - Train Epoch 24: 300/359 Loss: 2.818
+2023-03-30 15:40:05,589 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 24: averaged Loss: mae 3.063
+2023-03-30 15:40:06,500 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 24: average Loss: 3.159914
+2023-03-30 15:40:06,500 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:40:06,903 - nns.supervisor.base_supervisor - INFO - Train Epoch 25: 0/359 Loss: 3.286
+2023-03-30 15:40:11,643 - nns.supervisor.base_supervisor - INFO - Train Epoch 25: 100/359 Loss: 3.213
+2023-03-30 15:40:16,352 - nns.supervisor.base_supervisor - INFO - Train Epoch 25: 200/359 Loss: 3.061
+2023-03-30 15:40:21,054 - nns.supervisor.base_supervisor - INFO - Train Epoch 25: 300/359 Loss: 3.027
+2023-03-30 15:40:23,783 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 25: averaged Loss: mae 3.057
+2023-03-30 15:40:24,687 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 25: average Loss: 3.102507
+2023-03-30 15:40:24,687 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:40:24,733 - nns.supervisor.base_supervisor - INFO - Saved current best model at 25
+2023-03-30 15:40:25,244 - nns.supervisor.base_supervisor - INFO - Train Epoch 26: 0/359 Loss: 2.972
+2023-03-30 15:40:29,885 - nns.supervisor.base_supervisor - INFO - Train Epoch 26: 100/359 Loss: 3.166
+2023-03-30 15:40:34,572 - nns.supervisor.base_supervisor - INFO - Train Epoch 26: 200/359 Loss: 3.067
+2023-03-30 15:40:39,235 - nns.supervisor.base_supervisor - INFO - Train Epoch 26: 300/359 Loss: 3.082
+2023-03-30 15:40:41,964 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 26: averaged Loss: mae 3.046
+2023-03-30 15:40:42,862 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 26: average Loss: 3.124664
+2023-03-30 15:40:42,863 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:40:43,242 - nns.supervisor.base_supervisor - INFO - Train Epoch 27: 0/359 Loss: 3.265
+2023-03-30 15:40:47,928 - nns.supervisor.base_supervisor - INFO - Train Epoch 27: 100/359 Loss: 3.125
+2023-03-30 15:40:52,609 - nns.supervisor.base_supervisor - INFO - Train Epoch 27: 200/359 Loss: 3.186
+2023-03-30 15:40:57,339 - nns.supervisor.base_supervisor - INFO - Train Epoch 27: 300/359 Loss: 3.012
+2023-03-30 15:41:00,084 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 27: averaged Loss: mae 3.039
+2023-03-30 15:41:00,987 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 27: average Loss: 3.126362
+2023-03-30 15:41:00,987 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:41:01,360 - nns.supervisor.base_supervisor - INFO - Train Epoch 28: 0/359 Loss: 3.057
+2023-03-30 15:41:06,182 - nns.supervisor.base_supervisor - INFO - Train Epoch 28: 100/359 Loss: 3.179
+2023-03-30 15:41:10,878 - nns.supervisor.base_supervisor - INFO - Train Epoch 28: 200/359 Loss: 2.896
+2023-03-30 15:41:15,619 - nns.supervisor.base_supervisor - INFO - Train Epoch 28: 300/359 Loss: 2.962
+2023-03-30 15:41:18,338 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 28: averaged Loss: mae 3.040
+2023-03-30 15:41:19,231 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 28: average Loss: 3.150999
+2023-03-30 15:41:19,231 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:41:19,623 - nns.supervisor.base_supervisor - INFO - Train Epoch 29: 0/359 Loss: 3.012
+2023-03-30 15:41:24,283 - nns.supervisor.base_supervisor - INFO - Train Epoch 29: 100/359 Loss: 3.118
+2023-03-30 15:41:29,098 - nns.supervisor.base_supervisor - INFO - Train Epoch 29: 200/359 Loss: 3.157
+2023-03-30 15:41:33,815 - nns.supervisor.base_supervisor - INFO - Train Epoch 29: 300/359 Loss: 2.900
+2023-03-30 15:41:36,603 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 29: averaged Loss: mae 3.039
+2023-03-30 15:41:37,505 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 29: average Loss: 3.069893
+2023-03-30 15:41:37,505 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:41:37,556 - nns.supervisor.base_supervisor - INFO - Saved current best model at 29
+2023-03-30 15:41:37,956 - nns.supervisor.base_supervisor - INFO - Train Epoch 30: 0/359 Loss: 2.912
+2023-03-30 15:41:42,648 - nns.supervisor.base_supervisor - INFO - Train Epoch 30: 100/359 Loss: 3.022
+2023-03-30 15:41:47,344 - nns.supervisor.base_supervisor - INFO - Train Epoch 30: 200/359 Loss: 2.848
+2023-03-30 15:41:52,049 - nns.supervisor.base_supervisor - INFO - Train Epoch 30: 300/359 Loss: 3.236
+2023-03-30 15:41:54,789 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 30: averaged Loss: mae 3.032
+2023-03-30 15:41:55,696 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 30: average Loss: 3.090805
+2023-03-30 15:41:55,697 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:41:56,083 - nns.supervisor.base_supervisor - INFO - Train Epoch 31: 0/359 Loss: 3.090
+2023-03-30 15:42:00,892 - nns.supervisor.base_supervisor - INFO - Train Epoch 31: 100/359 Loss: 3.109
+2023-03-30 15:42:05,593 - nns.supervisor.base_supervisor - INFO - Train Epoch 31: 200/359 Loss: 2.893
+2023-03-30 15:42:10,272 - nns.supervisor.base_supervisor - INFO - Train Epoch 31: 300/359 Loss: 3.104
+2023-03-30 15:42:13,028 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 31: averaged Loss: mae 3.030
+2023-03-30 15:42:13,909 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 31: average Loss: 3.138694
+2023-03-30 15:42:13,909 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:42:14,297 - nns.supervisor.base_supervisor - INFO - Train Epoch 32: 0/359 Loss: 2.982
+2023-03-30 15:42:18,978 - nns.supervisor.base_supervisor - INFO - Train Epoch 32: 100/359 Loss: 2.927
+2023-03-30 15:42:23,668 - nns.supervisor.base_supervisor - INFO - Train Epoch 32: 200/359 Loss: 3.052
+2023-03-30 15:42:28,341 - nns.supervisor.base_supervisor - INFO - Train Epoch 32: 300/359 Loss: 2.927
+2023-03-30 15:42:31,050 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 32: averaged Loss: mae 3.019
+2023-03-30 15:42:31,944 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 32: average Loss: 3.147396
+2023-03-30 15:42:31,944 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:42:32,338 - nns.supervisor.base_supervisor - INFO - Train Epoch 33: 0/359 Loss: 3.018
+2023-03-30 15:42:37,121 - nns.supervisor.base_supervisor - INFO - Train Epoch 33: 100/359 Loss: 2.998
+2023-03-30 15:42:41,860 - nns.supervisor.base_supervisor - INFO - Train Epoch 33: 200/359 Loss: 2.952
+2023-03-30 15:42:46,604 - nns.supervisor.base_supervisor - INFO - Train Epoch 33: 300/359 Loss: 2.980
+2023-03-30 15:42:49,350 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 33: averaged Loss: mae 3.018
+2023-03-30 15:42:50,259 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 33: average Loss: 3.265171
+2023-03-30 15:42:50,260 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:42:50,649 - nns.supervisor.base_supervisor - INFO - Train Epoch 34: 0/359 Loss: 2.742
+2023-03-30 15:42:55,362 - nns.supervisor.base_supervisor - INFO - Train Epoch 34: 100/359 Loss: 3.039
+2023-03-30 15:43:00,139 - nns.supervisor.base_supervisor - INFO - Train Epoch 34: 200/359 Loss: 2.799
+2023-03-30 15:43:04,944 - nns.supervisor.base_supervisor - INFO - Train Epoch 34: 300/359 Loss: 2.926
+2023-03-30 15:43:07,677 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 34: averaged Loss: mae 3.013
+2023-03-30 15:43:08,575 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 34: average Loss: 3.182598
+2023-03-30 15:43:08,575 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:43:08,990 - nns.supervisor.base_supervisor - INFO - Train Epoch 35: 0/359 Loss: 3.090
+2023-03-30 15:43:13,715 - nns.supervisor.base_supervisor - INFO - Train Epoch 35: 100/359 Loss: 3.181
+2023-03-30 15:43:18,508 - nns.supervisor.base_supervisor - INFO - Train Epoch 35: 200/359 Loss: 3.042
+2023-03-30 15:43:23,260 - nns.supervisor.base_supervisor - INFO - Train Epoch 35: 300/359 Loss: 3.373
+2023-03-30 15:43:26,007 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 35: averaged Loss: mae 3.007
+2023-03-30 15:43:26,922 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 35: average Loss: 3.062272
+2023-03-30 15:43:26,923 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:43:26,973 - nns.supervisor.base_supervisor - INFO - Saved current best model at 35
+2023-03-30 15:43:27,373 - nns.supervisor.base_supervisor - INFO - Train Epoch 36: 0/359 Loss: 3.311
+2023-03-30 15:43:32,176 - nns.supervisor.base_supervisor - INFO - Train Epoch 36: 100/359 Loss: 2.910
+2023-03-30 15:43:36,982 - nns.supervisor.base_supervisor - INFO - Train Epoch 36: 200/359 Loss: 3.138
+2023-03-30 15:43:41,774 - nns.supervisor.base_supervisor - INFO - Train Epoch 36: 300/359 Loss: 2.715
+2023-03-30 15:43:44,500 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 36: averaged Loss: mae 3.005
+2023-03-30 15:43:45,387 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 36: average Loss: 3.148794
+2023-03-30 15:43:45,388 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:43:45,771 - nns.supervisor.base_supervisor - INFO - Train Epoch 37: 0/359 Loss: 3.101
+2023-03-30 15:43:50,534 - nns.supervisor.base_supervisor - INFO - Train Epoch 37: 100/359 Loss: 2.975
+2023-03-30 15:43:55,224 - nns.supervisor.base_supervisor - INFO - Train Epoch 37: 200/359 Loss: 2.937
+2023-03-30 15:44:00,006 - nns.supervisor.base_supervisor - INFO - Train Epoch 37: 300/359 Loss: 3.187
+2023-03-30 15:44:02,742 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 37: averaged Loss: mae 3.002
+2023-03-30 15:44:03,666 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 37: average Loss: 3.109149
+2023-03-30 15:44:03,666 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:44:04,036 - nns.supervisor.base_supervisor - INFO - Train Epoch 38: 0/359 Loss: 2.960
+2023-03-30 15:44:08,746 - nns.supervisor.base_supervisor - INFO - Train Epoch 38: 100/359 Loss: 3.003
+2023-03-30 15:44:13,629 - nns.supervisor.base_supervisor - INFO - Train Epoch 38: 200/359 Loss: 2.922
+2023-03-30 15:44:18,431 - nns.supervisor.base_supervisor - INFO - Train Epoch 38: 300/359 Loss: 3.074
+2023-03-30 15:44:21,163 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 38: averaged Loss: mae 2.997
+2023-03-30 15:44:22,065 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 38: average Loss: 3.086231
+2023-03-30 15:44:22,065 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:44:22,450 - nns.supervisor.base_supervisor - INFO - Train Epoch 39: 0/359 Loss: 3.020
+2023-03-30 15:44:27,269 - nns.supervisor.base_supervisor - INFO - Train Epoch 39: 100/359 Loss: 3.334
+2023-03-30 15:44:32,051 - nns.supervisor.base_supervisor - INFO - Train Epoch 39: 200/359 Loss: 2.966
+2023-03-30 15:44:36,867 - nns.supervisor.base_supervisor - INFO - Train Epoch 39: 300/359 Loss: 3.042
+2023-03-30 15:44:39,583 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 39: averaged Loss: mae 2.994
+2023-03-30 15:44:40,476 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 39: average Loss: 3.065280
+2023-03-30 15:44:40,499 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:44:41,008 - nns.supervisor.base_supervisor - INFO - Train Epoch 40: 0/359 Loss: 3.089
+2023-03-30 15:44:45,755 - nns.supervisor.base_supervisor - INFO - Train Epoch 40: 100/359 Loss: 2.798
+2023-03-30 15:44:50,515 - nns.supervisor.base_supervisor - INFO - Train Epoch 40: 200/359 Loss: 2.901
+2023-03-30 15:44:55,258 - nns.supervisor.base_supervisor - INFO - Train Epoch 40: 300/359 Loss: 3.006
+2023-03-30 15:44:58,007 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 40: averaged Loss: mae 2.985
+2023-03-30 15:44:58,913 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 40: average Loss: 3.069230
+2023-03-30 15:44:58,913 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:44:59,310 - nns.supervisor.base_supervisor - INFO - Train Epoch 41: 0/359 Loss: 2.942
+2023-03-30 15:45:03,954 - nns.supervisor.base_supervisor - INFO - Train Epoch 41: 100/359 Loss: 3.098
+2023-03-30 15:45:08,681 - nns.supervisor.base_supervisor - INFO - Train Epoch 41: 200/359 Loss: 2.736
+2023-03-30 15:45:13,412 - nns.supervisor.base_supervisor - INFO - Train Epoch 41: 300/359 Loss: 2.910
+2023-03-30 15:45:16,160 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 41: averaged Loss: mae 2.985
+2023-03-30 15:45:17,059 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 41: average Loss: 3.090241
+2023-03-30 15:45:17,059 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:45:17,463 - nns.supervisor.base_supervisor - INFO - Train Epoch 42: 0/359 Loss: 2.911
+2023-03-30 15:45:22,165 - nns.supervisor.base_supervisor - INFO - Train Epoch 42: 100/359 Loss: 2.616
+2023-03-30 15:45:26,889 - nns.supervisor.base_supervisor - INFO - Train Epoch 42: 200/359 Loss: 2.794
+2023-03-30 15:45:31,771 - nns.supervisor.base_supervisor - INFO - Train Epoch 42: 300/359 Loss: 3.263
+2023-03-30 15:45:34,521 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 42: averaged Loss: mae 2.983
+2023-03-30 15:45:35,431 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 42: average Loss: 3.106516
+2023-03-30 15:45:35,431 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:45:35,817 - nns.supervisor.base_supervisor - INFO - Train Epoch 43: 0/359 Loss: 2.895
+2023-03-30 15:45:40,620 - nns.supervisor.base_supervisor - INFO - Train Epoch 43: 100/359 Loss: 2.843
+2023-03-30 15:45:45,309 - nns.supervisor.base_supervisor - INFO - Train Epoch 43: 200/359 Loss: 2.807
+2023-03-30 15:45:50,068 - nns.supervisor.base_supervisor - INFO - Train Epoch 43: 300/359 Loss: 3.118
+2023-03-30 15:45:52,800 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 43: averaged Loss: mae 2.977
+2023-03-30 15:45:53,699 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 43: average Loss: 3.055434
+2023-03-30 15:45:53,699 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:45:53,750 - nns.supervisor.base_supervisor - INFO - Saved current best model at 43
+2023-03-30 15:45:54,126 - nns.supervisor.base_supervisor - INFO - Train Epoch 44: 0/359 Loss: 3.056
+2023-03-30 15:45:58,893 - nns.supervisor.base_supervisor - INFO - Train Epoch 44: 100/359 Loss: 3.066
+2023-03-30 15:46:03,626 - nns.supervisor.base_supervisor - INFO - Train Epoch 44: 200/359 Loss: 2.747
+2023-03-30 15:46:08,349 - nns.supervisor.base_supervisor - INFO - Train Epoch 44: 300/359 Loss: 2.720
+2023-03-30 15:46:11,098 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 44: averaged Loss: mae 2.976
+2023-03-30 15:46:12,021 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 44: average Loss: 3.097409
+2023-03-30 15:46:12,021 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:46:12,405 - nns.supervisor.base_supervisor - INFO - Train Epoch 45: 0/359 Loss: 3.213
+2023-03-30 15:46:17,135 - nns.supervisor.base_supervisor - INFO - Train Epoch 45: 100/359 Loss: 3.129
+2023-03-30 15:46:21,876 - nns.supervisor.base_supervisor - INFO - Train Epoch 45: 200/359 Loss: 2.951
+2023-03-30 15:46:26,582 - nns.supervisor.base_supervisor - INFO - Train Epoch 45: 300/359 Loss: 3.082
+2023-03-30 15:46:29,337 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 45: averaged Loss: mae 2.976
+2023-03-30 15:46:30,242 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 45: average Loss: 3.030329
+2023-03-30 15:46:30,243 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:46:30,293 - nns.supervisor.base_supervisor - INFO - Saved current best model at 45
+2023-03-30 15:46:30,686 - nns.supervisor.base_supervisor - INFO - Train Epoch 46: 0/359 Loss: 3.057
+2023-03-30 15:46:35,408 - nns.supervisor.base_supervisor - INFO - Train Epoch 46: 100/359 Loss: 2.916
+2023-03-30 15:46:40,130 - nns.supervisor.base_supervisor - INFO - Train Epoch 46: 200/359 Loss: 2.971
+2023-03-30 15:46:44,845 - nns.supervisor.base_supervisor - INFO - Train Epoch 46: 300/359 Loss: 2.785
+2023-03-30 15:46:47,596 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 46: averaged Loss: mae 2.973
+2023-03-30 15:46:48,483 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 46: average Loss: 3.092854
+2023-03-30 15:46:48,484 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:46:48,858 - nns.supervisor.base_supervisor - INFO - Train Epoch 47: 0/359 Loss: 2.839
+2023-03-30 15:46:53,607 - nns.supervisor.base_supervisor - INFO - Train Epoch 47: 100/359 Loss: 3.057
+2023-03-30 15:46:58,366 - nns.supervisor.base_supervisor - INFO - Train Epoch 47: 200/359 Loss: 3.118
+2023-03-30 15:47:03,123 - nns.supervisor.base_supervisor - INFO - Train Epoch 47: 300/359 Loss: 3.034
+2023-03-30 15:47:05,868 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 47: averaged Loss: mae 2.968
+2023-03-30 15:47:06,779 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 47: average Loss: 3.077060
+2023-03-30 15:47:06,779 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:47:07,151 - nns.supervisor.base_supervisor - INFO - Train Epoch 48: 0/359 Loss: 2.844
+2023-03-30 15:47:11,919 - nns.supervisor.base_supervisor - INFO - Train Epoch 48: 100/359 Loss: 2.809
+2023-03-30 15:47:16,659 - nns.supervisor.base_supervisor - INFO - Train Epoch 48: 200/359 Loss: 2.760
+2023-03-30 15:47:21,432 - nns.supervisor.base_supervisor - INFO - Train Epoch 48: 300/359 Loss: 3.042
+2023-03-30 15:47:24,192 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 48: averaged Loss: mae 2.963
+2023-03-30 15:47:25,103 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 48: average Loss: 3.097229
+2023-03-30 15:47:25,103 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:47:25,475 - nns.supervisor.base_supervisor - INFO - Train Epoch 49: 0/359 Loss: 2.943
+2023-03-30 15:47:30,229 - nns.supervisor.base_supervisor - INFO - Train Epoch 49: 100/359 Loss: 3.178
+2023-03-30 15:47:34,977 - nns.supervisor.base_supervisor - INFO - Train Epoch 49: 200/359 Loss: 2.985
+2023-03-30 15:47:39,732 - nns.supervisor.base_supervisor - INFO - Train Epoch 49: 300/359 Loss: 3.069
+2023-03-30 15:47:42,504 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 49: averaged Loss: mae 2.964
+2023-03-30 15:47:43,407 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 49: average Loss: 3.076349
+2023-03-30 15:47:43,407 - nns.supervisor.base_supervisor - INFO - LR: 0.0005
+2023-03-30 15:47:43,768 - nns.supervisor.base_supervisor - INFO - Train Epoch 50: 0/359 Loss: 2.915
+2023-03-30 15:47:48,489 - nns.supervisor.base_supervisor - INFO - Train Epoch 50: 100/359 Loss: 2.929
+2023-03-30 15:47:53,246 - nns.supervisor.base_supervisor - INFO - Train Epoch 50: 200/359 Loss: 3.096
+2023-03-30 15:47:57,969 - nns.supervisor.base_supervisor - INFO - Train Epoch 50: 300/359 Loss: 3.047
+2023-03-30 15:48:00,719 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 50: averaged Loss: mae 2.962
+2023-03-30 15:48:01,623 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 50: average Loss: 3.041044
+2023-03-30 15:48:01,623 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:48:02,000 - nns.supervisor.base_supervisor - INFO - Train Epoch 51: 0/359 Loss: 3.162
+2023-03-30 15:48:06,709 - nns.supervisor.base_supervisor - INFO - Train Epoch 51: 100/359 Loss: 2.976
+2023-03-30 15:48:11,435 - nns.supervisor.base_supervisor - INFO - Train Epoch 51: 200/359 Loss: 2.846
+2023-03-30 15:48:16,162 - nns.supervisor.base_supervisor - INFO - Train Epoch 51: 300/359 Loss: 2.669
+2023-03-30 15:48:19,011 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 51: averaged Loss: mae 2.897
+2023-03-30 15:48:19,909 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 51: average Loss: 3.021334
+2023-03-30 15:48:19,909 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:48:19,962 - nns.supervisor.base_supervisor - INFO - Saved current best model at 51
+2023-03-30 15:48:20,335 - nns.supervisor.base_supervisor - INFO - Train Epoch 52: 0/359 Loss: 2.891
+2023-03-30 15:48:25,063 - nns.supervisor.base_supervisor - INFO - Train Epoch 52: 100/359 Loss: 3.071
+2023-03-30 15:48:29,791 - nns.supervisor.base_supervisor - INFO - Train Epoch 52: 200/359 Loss: 2.888
+2023-03-30 15:48:34,519 - nns.supervisor.base_supervisor - INFO - Train Epoch 52: 300/359 Loss: 2.790
+2023-03-30 15:48:37,256 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 52: averaged Loss: mae 2.890
+2023-03-30 15:48:38,160 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 52: average Loss: 3.022787
+2023-03-30 15:48:38,161 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:48:38,561 - nns.supervisor.base_supervisor - INFO - Train Epoch 53: 0/359 Loss: 3.009
+2023-03-30 15:48:43,284 - nns.supervisor.base_supervisor - INFO - Train Epoch 53: 100/359 Loss: 2.875
+2023-03-30 15:48:48,023 - nns.supervisor.base_supervisor - INFO - Train Epoch 53: 200/359 Loss: 2.858
+2023-03-30 15:48:52,759 - nns.supervisor.base_supervisor - INFO - Train Epoch 53: 300/359 Loss: 2.910
+2023-03-30 15:48:55,503 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 53: averaged Loss: mae 2.890
+2023-03-30 15:48:56,424 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 53: average Loss: 3.012576
+2023-03-30 15:48:56,425 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:48:56,479 - nns.supervisor.base_supervisor - INFO - Saved current best model at 53
+2023-03-30 15:48:56,991 - nns.supervisor.base_supervisor - INFO - Train Epoch 54: 0/359 Loss: 3.002
+2023-03-30 15:49:01,779 - nns.supervisor.base_supervisor - INFO - Train Epoch 54: 100/359 Loss: 2.686
+2023-03-30 15:49:06,516 - nns.supervisor.base_supervisor - INFO - Train Epoch 54: 200/359 Loss: 3.012
+2023-03-30 15:49:11,261 - nns.supervisor.base_supervisor - INFO - Train Epoch 54: 300/359 Loss: 2.874
+2023-03-30 15:49:14,012 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 54: averaged Loss: mae 2.886
+2023-03-30 15:49:14,920 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 54: average Loss: 3.015552
+2023-03-30 15:49:14,920 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:49:15,302 - nns.supervisor.base_supervisor - INFO - Train Epoch 55: 0/359 Loss: 2.608
+2023-03-30 15:49:20,069 - nns.supervisor.base_supervisor - INFO - Train Epoch 55: 100/359 Loss: 2.844
+2023-03-30 15:49:24,803 - nns.supervisor.base_supervisor - INFO - Train Epoch 55: 200/359 Loss: 3.079
+2023-03-30 15:49:29,552 - nns.supervisor.base_supervisor - INFO - Train Epoch 55: 300/359 Loss: 2.756
+2023-03-30 15:49:32,310 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 55: averaged Loss: mae 2.886
+2023-03-30 15:49:33,203 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 55: average Loss: 3.033652
+2023-03-30 15:49:33,203 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:49:33,572 - nns.supervisor.base_supervisor - INFO - Train Epoch 56: 0/359 Loss: 3.007
+2023-03-30 15:49:38,305 - nns.supervisor.base_supervisor - INFO - Train Epoch 56: 100/359 Loss: 2.922
+2023-03-30 15:49:43,042 - nns.supervisor.base_supervisor - INFO - Train Epoch 56: 200/359 Loss: 2.970
+2023-03-30 15:49:47,767 - nns.supervisor.base_supervisor - INFO - Train Epoch 56: 300/359 Loss: 3.158
+2023-03-30 15:49:50,571 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 56: averaged Loss: mae 2.882
+2023-03-30 15:49:51,533 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 56: average Loss: 3.008958
+2023-03-30 15:49:51,533 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:49:51,589 - nns.supervisor.base_supervisor - INFO - Saved current best model at 56
+2023-03-30 15:49:52,075 - nns.supervisor.base_supervisor - INFO - Train Epoch 57: 0/359 Loss: 2.839
+2023-03-30 15:49:56,816 - nns.supervisor.base_supervisor - INFO - Train Epoch 57: 100/359 Loss: 2.617
+2023-03-30 15:50:01,568 - nns.supervisor.base_supervisor - INFO - Train Epoch 57: 200/359 Loss: 2.705
+2023-03-30 15:50:06,322 - nns.supervisor.base_supervisor - INFO - Train Epoch 57: 300/359 Loss: 3.010
+2023-03-30 15:50:09,068 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 57: averaged Loss: mae 2.881
+2023-03-30 15:50:09,977 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 57: average Loss: 3.010375
+2023-03-30 15:50:09,977 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:50:10,358 - nns.supervisor.base_supervisor - INFO - Train Epoch 58: 0/359 Loss: 2.786
+2023-03-30 15:50:15,119 - nns.supervisor.base_supervisor - INFO - Train Epoch 58: 100/359 Loss: 2.930
+2023-03-30 15:50:19,869 - nns.supervisor.base_supervisor - INFO - Train Epoch 58: 200/359 Loss: 3.053
+2023-03-30 15:50:24,738 - nns.supervisor.base_supervisor - INFO - Train Epoch 58: 300/359 Loss: 3.348
+2023-03-30 15:50:27,697 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 58: averaged Loss: mae 2.880
+2023-03-30 15:50:28,625 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 58: average Loss: 3.005443
+2023-03-30 15:50:28,625 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:50:28,682 - nns.supervisor.base_supervisor - INFO - Saved current best model at 58
+2023-03-30 15:50:29,070 - nns.supervisor.base_supervisor - INFO - Train Epoch 59: 0/359 Loss: 2.983
+2023-03-30 15:50:34,133 - nns.supervisor.base_supervisor - INFO - Train Epoch 59: 100/359 Loss: 2.908
+2023-03-30 15:50:39,504 - nns.supervisor.base_supervisor - INFO - Train Epoch 59: 200/359 Loss: 2.951
+2023-03-30 15:50:44,633 - nns.supervisor.base_supervisor - INFO - Train Epoch 59: 300/359 Loss: 2.792
+2023-03-30 15:50:47,468 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 59: averaged Loss: mae 2.879
+2023-03-30 15:50:48,377 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 59: average Loss: 3.029495
+2023-03-30 15:50:48,377 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:50:48,765 - nns.supervisor.base_supervisor - INFO - Train Epoch 60: 0/359 Loss: 2.790
+2023-03-30 15:50:53,607 - nns.supervisor.base_supervisor - INFO - Train Epoch 60: 100/359 Loss: 2.840
+2023-03-30 15:50:58,466 - nns.supervisor.base_supervisor - INFO - Train Epoch 60: 200/359 Loss: 2.740
+2023-03-30 15:51:03,225 - nns.supervisor.base_supervisor - INFO - Train Epoch 60: 300/359 Loss: 2.835
+2023-03-30 15:51:06,015 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 60: averaged Loss: mae 2.877
+2023-03-30 15:51:06,925 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 60: average Loss: 3.025595
+2023-03-30 15:51:06,926 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:51:07,313 - nns.supervisor.base_supervisor - INFO - Train Epoch 61: 0/359 Loss: 2.790
+2023-03-30 15:51:12,205 - nns.supervisor.base_supervisor - INFO - Train Epoch 61: 100/359 Loss: 3.118
+2023-03-30 15:51:17,071 - nns.supervisor.base_supervisor - INFO - Train Epoch 61: 200/359 Loss: 2.801
+2023-03-30 15:51:21,995 - nns.supervisor.base_supervisor - INFO - Train Epoch 61: 300/359 Loss: 2.895
+2023-03-30 15:51:24,780 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 61: averaged Loss: mae 2.878
+2023-03-30 15:51:25,692 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 61: average Loss: 3.017647
+2023-03-30 15:51:25,693 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:51:26,068 - nns.supervisor.base_supervisor - INFO - Train Epoch 62: 0/359 Loss: 2.681
+2023-03-30 15:51:30,980 - nns.supervisor.base_supervisor - INFO - Train Epoch 62: 100/359 Loss: 2.716
+2023-03-30 15:51:35,928 - nns.supervisor.base_supervisor - INFO - Train Epoch 62: 200/359 Loss: 2.769
+2023-03-30 15:51:41,044 - nns.supervisor.base_supervisor - INFO - Train Epoch 62: 300/359 Loss: 2.788
+2023-03-30 15:51:44,044 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 62: averaged Loss: mae 2.874
+2023-03-30 15:51:44,957 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 62: average Loss: 3.019784
+2023-03-30 15:51:44,957 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:51:45,388 - nns.supervisor.base_supervisor - INFO - Train Epoch 63: 0/359 Loss: 3.040
+2023-03-30 15:51:50,374 - nns.supervisor.base_supervisor - INFO - Train Epoch 63: 100/359 Loss: 3.065
+2023-03-30 15:51:55,515 - nns.supervisor.base_supervisor - INFO - Train Epoch 63: 200/359 Loss: 2.985
+2023-03-30 15:52:00,583 - nns.supervisor.base_supervisor - INFO - Train Epoch 63: 300/359 Loss: 2.922
+2023-03-30 15:52:03,454 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 63: averaged Loss: mae 2.874
+2023-03-30 15:52:04,437 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 63: average Loss: 3.036797
+2023-03-30 15:52:04,437 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:52:04,872 - nns.supervisor.base_supervisor - INFO - Train Epoch 64: 0/359 Loss: 2.854
+2023-03-30 15:52:09,874 - nns.supervisor.base_supervisor - INFO - Train Epoch 64: 100/359 Loss: 2.894
+2023-03-30 15:52:14,717 - nns.supervisor.base_supervisor - INFO - Train Epoch 64: 200/359 Loss: 2.805
+2023-03-30 15:52:19,647 - nns.supervisor.base_supervisor - INFO - Train Epoch 64: 300/359 Loss: 3.114
+2023-03-30 15:52:22,558 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 64: averaged Loss: mae 2.873
+2023-03-30 15:52:23,471 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 64: average Loss: 3.025091
+2023-03-30 15:52:23,472 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:52:23,867 - nns.supervisor.base_supervisor - INFO - Train Epoch 65: 0/359 Loss: 2.930
+2023-03-30 15:52:28,628 - nns.supervisor.base_supervisor - INFO - Train Epoch 65: 100/359 Loss: 3.069
+2023-03-30 15:52:33,385 - nns.supervisor.base_supervisor - INFO - Train Epoch 65: 200/359 Loss: 2.991
+2023-03-30 15:52:38,170 - nns.supervisor.base_supervisor - INFO - Train Epoch 65: 300/359 Loss: 2.917
+2023-03-30 15:52:40,930 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 65: averaged Loss: mae 2.874
+2023-03-30 15:52:41,854 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 65: average Loss: 3.014635
+2023-03-30 15:52:41,855 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:52:42,254 - nns.supervisor.base_supervisor - INFO - Train Epoch 66: 0/359 Loss: 3.013
+2023-03-30 15:52:47,009 - nns.supervisor.base_supervisor - INFO - Train Epoch 66: 100/359 Loss: 3.034
+2023-03-30 15:52:51,775 - nns.supervisor.base_supervisor - INFO - Train Epoch 66: 200/359 Loss: 3.060
+2023-03-30 15:52:56,544 - nns.supervisor.base_supervisor - INFO - Train Epoch 66: 300/359 Loss: 2.862
+2023-03-30 15:52:59,299 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 66: averaged Loss: mae 2.872
+2023-03-30 15:53:00,214 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 66: average Loss: 3.031674
+2023-03-30 15:53:00,214 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:53:00,595 - nns.supervisor.base_supervisor - INFO - Train Epoch 67: 0/359 Loss: 2.797
+2023-03-30 15:53:05,389 - nns.supervisor.base_supervisor - INFO - Train Epoch 67: 100/359 Loss: 2.772
+2023-03-30 15:53:10,248 - nns.supervisor.base_supervisor - INFO - Train Epoch 67: 200/359 Loss: 2.998
+2023-03-30 15:53:15,585 - nns.supervisor.base_supervisor - INFO - Train Epoch 67: 300/359 Loss: 2.879
+2023-03-30 15:53:18,508 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 67: averaged Loss: mae 2.871
+2023-03-30 15:53:19,568 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 67: average Loss: 3.028303
+2023-03-30 15:53:19,568 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:53:20,057 - nns.supervisor.base_supervisor - INFO - Train Epoch 68: 0/359 Loss: 2.698
+2023-03-30 15:53:25,035 - nns.supervisor.base_supervisor - INFO - Train Epoch 68: 100/359 Loss: 2.931
+2023-03-30 15:53:30,031 - nns.supervisor.base_supervisor - INFO - Train Epoch 68: 200/359 Loss: 2.783
+2023-03-30 15:53:35,152 - nns.supervisor.base_supervisor - INFO - Train Epoch 68: 300/359 Loss: 2.825
+2023-03-30 15:53:38,161 - nns.supervisor.base_supervisor - INFO - **********Train Epoch 68: averaged Loss: mae 2.870
+2023-03-30 15:53:39,139 - nns.supervisor.base_supervisor - INFO - **********Val Epoch 68: average Loss: 3.031985
+2023-03-30 15:53:39,139 - nns.supervisor.base_supervisor - INFO - LR: 0.0001
+2023-03-30 15:53:39,139 - nns.supervisor.base_supervisor - INFO - Validation performance didn't improve for 10 epochs. Training stops.
+2023-03-30 15:53:39,139 - nns.supervisor.base_supervisor - INFO - Total training time: 20.6521min
+2023-03-30 15:53:57,324 - nns.supervisor.base_supervisor - INFO - Horizon 1, MAE: 2.28, RMSE: 3.82, MAPE: 5.5177%
+2023-03-30 15:53:57,332 - nns.supervisor.base_supervisor - INFO - Horizon 2, MAE: 2.55, RMSE: 4.56, MAPE: 6.4127%
+2023-03-30 15:53:57,340 - nns.supervisor.base_supervisor - INFO - Horizon 3, MAE: 2.72, RMSE: 5.01, MAPE: 7.0637%
+2023-03-30 15:53:57,348 - nns.supervisor.base_supervisor - INFO - Horizon 4, MAE: 2.85, RMSE: 5.38, MAPE: 7.5674%
+2023-03-30 15:53:57,356 - nns.supervisor.base_supervisor - INFO - Horizon 5, MAE: 2.96, RMSE: 5.67, MAPE: 7.9881%
+2023-03-30 15:53:57,364 - nns.supervisor.base_supervisor - INFO - Horizon 6, MAE: 3.05, RMSE: 5.92, MAPE: 8.3653%
+2023-03-30 15:53:57,372 - nns.supervisor.base_supervisor - INFO - Horizon 7, MAE: 3.14, RMSE: 6.13, MAPE: 8.6971%
+2023-03-30 15:53:57,379 - nns.supervisor.base_supervisor - INFO - Horizon 8, MAE: 3.21, RMSE: 6.32, MAPE: 8.9457%
+2023-03-30 15:53:57,386 - nns.supervisor.base_supervisor - INFO - Horizon 9, MAE: 3.28, RMSE: 6.48, MAPE: 9.2171%
+2023-03-30 15:53:57,395 - nns.supervisor.base_supervisor - INFO - Horizon 10, MAE: 3.35, RMSE: 6.64, MAPE: 9.5258%
+2023-03-30 15:53:57,404 - nns.supervisor.base_supervisor - INFO - Horizon 11, MAE: 3.41, RMSE: 6.79, MAPE: 9.6571%
+2023-03-30 15:53:57,412 - nns.supervisor.base_supervisor - INFO - Horizon 12, MAE: 3.48, RMSE: 6.94, MAPE: 9.9367%
+2023-03-30 15:53:57,431 - nns.supervisor.base_supervisor - INFO - Average Horizon 3, MAE: 2.52, RMSE: 4.49, MAPE: 6.3313%
+2023-03-30 15:53:57,476 - nns.supervisor.base_supervisor - INFO - Average Horizon 6, MAE: 2.74, RMSE: 5.11, MAPE: 7.1524%
+2023-03-30 15:53:57,551 - nns.supervisor.base_supervisor - INFO - Average Horizon 9, MAE: 2.89, RMSE: 5.54, MAPE: 7.7527%
+2023-03-30 15:53:57,656 - nns.supervisor.base_supervisor - INFO - Average Horizon 12, MAE: 3.02, RMSE: 5.88, MAPE: 8.2411%

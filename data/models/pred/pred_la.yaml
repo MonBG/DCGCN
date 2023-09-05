@@ -1,0 +1,49 @@
+pre_trained: False
+log_dir: data/models/pred/N20
+log_level: INFO
+save_and_log: true
+save_tb: false
+
+data:
+  batch_size: 64
+  sample_ratio: 1.
+  dataset_dir: data/METR-LA/N20
+
+model:
+  description: Causal Predictor Attn
+  special_id:
+  num_nodes: 20
+  in_feats_dim: 2
+  out_feats_dim: 1
+  hidden_dim: 64
+  num_layers: 4
+  seq_len: 11
+  horizon: 12
+  sym_graph: false
+  norm_type: 2
+  model_version: "CascadeGCNv2d4"
+  dag_gen_version: "g4s2v1"
+  dag_gen_log_dir: "base_dir/data/models/dag_gen/..."
+
+loss:
+  type: mae
+
+train:
+  debug: false
+  seed: 123
+  epoch: 0
+  epochs: 10
+  log_step: 100
+  cl_learn: true
+  cl_step: 150
+  tensorboard_dir: data/runs/pred/N20
+  plot: true
+  optimizer: adam
+  epsilon: 1.0e-3
+  lr_type: MultiStepLR
+  base_lr: 0.0005
+  lr_milestones: [50]
+  lr_decay_ratio: 0.2
+  max_grad_norm: 5
+  min_epochs: 5
+  early_stop: 10

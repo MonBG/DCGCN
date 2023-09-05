@@ -1,0 +1,53 @@
+{
+  "pre_trained": false,
+  "log_dir": "data/model_logs_large/case_pred/N20",
+  "log_level": "INFO",
+  "save_and_log": true,
+  "save_tb": false,
+  "data": {
+    "batch_size": 64,
+    "dataset_dir": "data/METR-LA-DCRNN/N20"
+  },
+  "model": {
+    "description": "Causal Predictor Attn",
+    "special_id": null,
+    "num_nodes": 20,
+    "in_feats_dim": 2,
+    "out_feats_dim": 1,
+    "hidden_dim": 64,
+    "num_layers": 4,
+    "seq_len": 11,
+    "horizon": 12,
+    "sym_graph": false,
+    "norm_type": 2,
+    "model_version": "CascadeGCNv2d4",
+    "dag_gen_version": "g4s2v1",
+    "dag_gen_log_dir": "D:\\Code_Files\\Pycharm\\Traffic\\data/model_logs_large/case_dag_gen/N20\\0315182858_case_dag_gen_None_g4s2v1_seed_123_bs_64_N_20_seq_11_in_2_out_1_h_64_z_8_nl_2_nh_8_f_cat_fl_3_nn_1_un_1_upp_0_sp0_0.002_npp0_1000_lr_0.0001_sp_0.002_sg_0.0"
+  },
+  "loss": {
+    "type": "mae"
+  },
+  "train": {
+    "debug": false,
+    "seed": 123,
+    "epoch": 0,
+    "epochs": 100,
+    "log_step": 100,
+    "cl_learn": true,
+    "cl_step": 150,
+    "tensorboard_dir": "data/runs/case_pred/N20",
+    "plot": true,
+    "optimizer": "adam",
+    "epsilon": 0.001,
+    "lr_type": "MultiStepLR",
+    "base_lr": 0.0005,
+    "lr_milestones": [
+      50
+    ],
+    "lr_decay_ratio": 0.2,
+    "max_grad_norm": 5,
+    "min_epochs": 5,
+    "early_stop": 10
+  },
+  "base_dir": "D:\\Code_Files\\Pycharm\\Traffic"
+}
