@@ -4,6 +4,7 @@ This repository contains the official implementation for the paper Dynamic Causa
 
 ## Requirements
 
+```
 torch~=1.12.1
 numpy~=1.22.4
 tqdm~=4.64.0
@@ -14,6 +15,7 @@ igraph~=0.10.2
 networkx~=2.8.5
 scikit-learn~=0.24.2
 pandas~=1.2.4
+```
 
 The dependencies can be installed by:
 
