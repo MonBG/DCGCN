@@ -42,3 +42,23 @@ python data_preprocess.py --traffic_df_filename <file path of original h5 file> 
     - Run `train_dag_gen.py`
 3. To train the downstream dynamic causal traffic prediction network:
     - Change the hyperparameters in `./data/models/pred/pred_la.yaml` if you need. Remember to set the value of `log_dir`, `dataset_dir` and
+
+## Results
+
+<p align="center">
+<img src="./figs/benchmark.png" alt="" align=center />
+<br><br>
+<b>Figure 1.</b>  Traffic Forecasting Performance Comparison For METR-LA.
+</p>
+
+<p align="center">
+<img src="./figs/prediction_result.png" alt="" align=center />
+<br><br>
+<b>Figure 2.</b> Prediction Results For the First 20 Nodes in METR-LA.
+</p>
+
+<p align="center">
+<img src="./figs/tvdbn.gif" alt="" align=center />
+<br><br>
+<b>Figure 3.</b> Example of Time-Varying DBN Results (Workday Morning).
+</p>
